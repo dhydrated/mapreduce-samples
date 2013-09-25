@@ -1,0 +1,6 @@
+target/
+/eclipse-classes
+output/
+.classpath
+.project
+.settings/

@@ -1,0 +1,9 @@
+mvn archetype:generate \
+      -DarchetypeGroupId=org.apache.maven.archetypes \
+      -DarchetypeArtifactId=maven-archetype-quickstart \
+      -DgroupId=org.dhydrated.mapreduce \
+      -DartifactId=mapreduce-samples
+
+
+
+mvn -Declipse.workspace=/home/taufek/workspaces/kepler-ws eclipse:configure-workspace eclipse:eclipse
